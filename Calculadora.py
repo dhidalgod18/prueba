@@ -15,4 +15,7 @@ class Command:
 class Add(Command):
 	def execute(self):
 		return self.a + self.b
+class subtraction(Command):
+	def execute(self):
+		return self.a - self.b
 
