@@ -11,4 +11,8 @@ class Command:
         por favor sobreescribir este metodo en cada commando.
         '''
         raise Exception('Overwrite this one pls')
+        
+class Add(Command):
+	def execute(self):
+		return self.a + self.b
 
